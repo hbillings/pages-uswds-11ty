@@ -33,7 +33,7 @@ permalink: /document-with-sidenav
 ---
 ```
 
-✅ [Search.gov](https://search.gov) integration - Once you have registered and configured Search.gov for your site by following [these instructions](https://federalist.18f.gov/documentation/search/), add your "affiliate" and "access key" to `_data/site.yml`. Ex.
+✅ [Search.gov](https://search.gov) integration - Once you have registered and configured Search.gov for your site by following [these instructions](https://search.gov/get-started/), add your "affiliate" (or "site handle") and "API access key" to `_data/site.yml`. Ex.
 
 ```
 searchgov:
@@ -41,10 +41,10 @@ searchgov:
   # You should not change this.
   endpoint: https://search.usa.gov
 
-  # replace this with your search.gov account
+  # replace this with your search.gov affiliate code (also called a site handle)
   affiliate: federalist-uswds-example
 
-  # replace with your access key
+  # replace with your API access key
   access_key: xX1gtb2RcnLbIYkHAcB6IaTRr4ZfN-p16ofcyUebeko=
 
   # this renders the results within the page instead of sending to user to search.gov
